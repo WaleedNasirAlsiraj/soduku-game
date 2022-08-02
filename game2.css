@@ -1,0 +1,91 @@
+/*  background color (#1E1E2C)
+    foreground color (#242636)
+    primary button color (#0277FA) */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #input{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    input{
+        width: 200px;
+        padding: 5px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    body{
+        background-color: #1E1E2C;
+        width: 100%;
+    }
+
+    nav{
+        color: white;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-menu ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hadi{
+        width: 60px;
+    }
+
+    .nav-menu ul li{
+        margin-left: 1.5vw;
+    }
+
+    .nav-menu ul li a{
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-menu ul li a:hover{
+        border-bottom: 2px solid white;
+    }
+
+
+    main{
+        background-color: #242636;
+        padding: 20px;
+    border-radius: 10px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .play{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }

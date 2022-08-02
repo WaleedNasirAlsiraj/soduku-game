@@ -1,0 +1,122 @@
+/*  background color (#1E1E2C)
+    foreground color (#242636)
+    primary button color (#0277FA) */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+        background-color: #1E1E2C;
+        width: 100%;
+    }
+
+    nav{
+        color: white;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-menu ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-menu ul li{
+        margin-left: 1.5vw;
+    }
+
+    .nav-menu ul li a{
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-menu ul li a:hover{
+        border-bottom: 2px solid white;
+    }
+
+    .help{
+        border-radius: 10px;
+        padding: 5px;
+        background-color: #242636;
+    }
+
+    main{
+        margin: 15px;
+        padding: 0px 20vw;
+        margin-top: 15px;
+        color: white;
+        text-align: left;
+    }
+
+    img{
+        text-align: center;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .li{
+        padding: 5px 10px;
+        margin-top: 10px;
+        background-color:#0277FA;
+        border-radius: 10px;
+    }
+    
+    .ul{
+        background-color:#242636;
+        padding: 10px 30px;
+        margin-top: 15px;
+        border-radius: 10px;
+        list-style: none;
+    }
+    .image{
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    @media only screen and (max-width: 1050px){
+        .image{
+            width: 400px;
+        }
+        main{
+            margin: 15px;
+            padding: 0px 10vw;
+            margin-top: 15px;
+            color: white;
+        }
+    }
+    @media only screen and (max-width: 750px){
+        .image{
+            width: 250px;
+        }
+        main{
+            margin: 15px;
+            padding: 0px 5vw;
+            margin-top: 15px;
+            color: white;
+        }
+    }
